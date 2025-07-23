@@ -1,0 +1,27 @@
+.header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+}
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: 2px solid #6c3b9b;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6c3b9b;
+}
+.login-btn:hover {
+  background-color: #6c3b9b;
+  color: #fff;
+}
+.user-icon {
+  width: 24px;
+  height: 24px;
+}
